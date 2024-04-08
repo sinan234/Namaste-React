@@ -1,3 +1,81 @@
 #heading{
     color: red;
 }
+*{
+   font-family: Poppins;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15%;
+    background-color: aquamarine;
+    border:0.5px solid black ;
+}
+ #logo{
+    height: 90px;
+    width: 120px;
+    margin-left: 20px;
+    mix-blend-mode:darken;
+
+ }
+
+ .nav-items > ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+ }
+
+ .nav-items > ul > li{
+    padding: 20px ;
+    font-size: 24px;
+ }
+
+ .body-container{
+    position: relative;
+    left: 3%;
+    margin-top: 40px;
+ }
+ #text{
+    border-radius: 8px;
+    padding: 12px;
+    border: 0.5px solid lightgray;
+ }
+
+ .res-card{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+ }
+ .resty .res-card:hover{
+   border: 0.1px solid black;
+   cursor: pointer;
+ }
+
+ #cardimg{
+   /* margin-left: 5%;
+   margin-right: 5%; */
+   padding: 20px !important;
+
+   width: 250px;
+   height: 12rem;
+ }
+ .app{
+   overflow-x: hidden;
+
+ }
+ .search{
+   position: relative;
+   left: 30% !important;
+ }
+
+ #time{
+   position: absolute;
+   margin-left:180px;
+   font-size: 12px;
+ }
+ #sm{
+   font-size: 12px;
+ }
+ #lg{
+   font-size: 14px;
+ }

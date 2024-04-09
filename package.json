@@ -4,7 +4,7 @@
   "description": "React App",
   "scripts": {
     "test": "jest",
-    "start": "rm -rf .parcel-cache && parcel index.html",
+    "start": "rmdir /s /q .parcel-cache && parcel index.html",
     "build": "parcel build index.html"
   },
   "keywords": [

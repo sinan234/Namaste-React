@@ -4,7 +4,6 @@ const Restocards=(props)=>{
   
     const {avgRating,cuisines,costForTwo,name}= props?.data?.info
     
-    
     return(
       <div className='res-card mt-3 rounded ms-5' style={{backgroundColor:'#f0f0f0',  maxWidth: '290px'}}>
   <img id='cardimg' className='p-30' src={`${CDN_URL}/${props.data.info.cloudinaryImageId}`} />     
